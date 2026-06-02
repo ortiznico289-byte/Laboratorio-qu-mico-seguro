@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Laboratorio Seguro</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <body>
+<div class="topbar">
+  <div class="topbar-tag">Química · Seguridad Integral</div>
+  <h1>Lab <span>Químico</span> Seguro</h1>
+  <p>Guía completa e interactiva de diseño y seguridad para laboratorio de química</p>
+</div>
+<div class="nav">
+  <button class="nb on" onclick="showPage('mapa',this)">🗺 Mapa</button>
+  <button class="nb" onclick="showPage('plano',this)">🏗 Diseño</button>
+  <button class="nb" onclick="showPage('normas',this)">📋 Normas</button>
+<button class="nb" onclick="showPage('iso',this)">🏛 
+ISO</button>
+  <button class="nb" onclick="showPage('senales',this)">🚧
+Señalización</button>
+  <button class="nb" onclick="showPage('ghs',this)">⬡ GHS</button>
+  <button class="nb" onclick="showPage('sust',this)">🧪 Sustancias</button>
+  <button class="nb" onclick="showPage('epp',this)">🥼 EPP</button>
+  <button class="nb" onclick="showPage('res',this)">♻️ Residuos</button>
+  <button class="nb" onclick="showPage('emerg',this)">🚨 Emergencias</button>
+    <button class="nb" onclick="showPage('peligros',this)">⚠️ 
+Peligros & Control</button>
+  <button class="nb" onclick="showPage('ipevr',this)">📊 IPEVR</button>
+  <button class="nb" onclick="showPage('sgsst',this)">⚙️ 
+ SG-SST</button>
+  <button class="nb" onclick="showPage('quiz',this)">🎯 
+Quiz</button>
+  <button class="nb" onclick="showPage('cl',this)">✅ Checklist</button>
+  <button class="nb" onclick="showPage('calc',this)">🧮 Calculadora</button>
+
+
+<div id="mapa" class="page on">
+  <div class="sec-title">Mapa mental — Laboratorio Seguro</div>
+  <p class="sec-sub">Visión general de todos los elementos que componen un laboratorio de química seguro.</p>
+  <div class="box">
+    <div class="mm-center">⚗️ LABORATORIO<br>QUÍMICO SEGURO</div>
+    <div class="mm-grid">
+      <div class="mm-b" style="border-top:3px solid #00e5ff"><div class="mm-bt" style="color:#00e5ff">🏗 Infraestructura</div><ul><li>Campana de extracción</li><li>Lavaojos certificado</li><li>Ducha de emergencia</li><li>Dos salidas de evacuación</li><li>Ventilación HVAC</li><li>Pisos antideslizantes</li><li>Mesones resistentes</li></ul></div>
+      <div class="mm-b" style="border-top:3px solid #eab308"><div class="mm-bt" style="color:#eab308">⬡ Peligros GHS</div><ul><li>Explosivos GHS01</li><li>Inflamables GHS02</li><li>Comburentes GHS03</li><li>Gases a presión GHS04</li><li>Corrosivos GHS05</li><li>Tóxicos agudos GHS06</li><li>Irritantes GHS07</li><li>Peligro salud GHS08</li><li>Peligro ambiental GHS09</li></ul></div>
+      <div class="mm-b" style="border-top:3px solid #ef4444"><div class="mm-bt" style="color:#ef4444">🚨 Emergencias</div><ul><li>Incendio — RACE</li><li>Derrame químico</li><li>Contacto con sustancias</li><li>Inhalación de vapores</li><li>Primeros auxilios</li><li>Números de emergencia</li><li>Rutas de evacuación</li></ul></div>
+      <div class="mm-b" style="border-top:3px solid #22c55e"><div class="mm-bt" style="color:#22c55e">🥼 EPP</div><ul><li>Bata algodón manga larga</li><li>Gafas de seguridad</li><li>Guantes según sustancia</li><li>Zapato cerrado</li><li>Mascarilla N95</li><li>Pantalla facial</li><li>Delantal PVC</li></ul></div>
+      <div class="mm-b" style="border-top:3px solid #a78bfa"><div class="mm-bt" style="color:#a78bfa">♻️ Residuos</div><ul><li>RESPEL rojo — peligrosos</li><li>Biológico amarillo</li><li>Ordinario verde</li><li>Cortopunzantes azul</li><li>Decreto 1076/2015</li><li>Decreto 351/2014</li></ul></div>
+      <div class="mm-b" style="border-top:3px solid #fb923c"><div class="mm-bt" style="color:#fb923c">📋 Normas</div><ul><li>Inducción obligatoria</li><li>No trabajar solo</li><li>Sin alimentos ni bebidas</li><li>Leer FDS antes de usar</li><li>Orden y limpieza</li><li>Señalización correcta</li><li>Reporte de incidentes</li></ul></div>
+    </div>
+  </div>
+</div>
+
+<div id="plano" class="page">
+  <div class="sec-title">Diseño físico del laboratorio</div>
+  <p class="sec-sub">Cada zona tiene requisitos normativos específicos. Toca una zona para ver sus especificaciones.</p>
+  <div class="box">
+    <span class="lbl">Plano esquemático — zonas obligatorias</span>
+    <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;border-radius:6px;background:#0e1117">
+      <rect x="10" y="10" width="660" height="340" fill="none" stroke="#2a3347" stroke-width="2" rx="4"/>
+      <rect x="20" y="20" width="370" height="180" fill="rgba(0,229,255,.04)" stroke="rgba(0,229,255,.3)" stroke-width="1.5" stroke-dasharray="6,4" rx="3"/>
+      <text x="32" y="38" fill="#00e5ff" font-size="8" font-family="monospace" letter-spacing="2" font-weight="700">ÁREA DE TRABAJO</text>
+      <rect x="30" y="45" width="160" height="45" fill="#161c27" stroke="#2a3347" rx="2"/><text x="110" y="71" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">MESÓN 1</text>
+      <rect x="30" y="100" width="160" height="45" fill="#161c27" stroke="#2a3347" rx="2"/><text x="110" y="126" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">MESÓN 2</text>
+      <rect x="205" y="45" width="170" height="45" fill="#161c27" stroke="#2a3347" rx="2"/><text x="290" y="71" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">MESÓN 3</text>
+      <rect x="205" y="100" width="170" height="45" fill="#161c27" stroke="#2a3347" rx="2"/><text x="290" y="126" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">MESÓN 4</text>
+      <rect x="20" y="158" width="370" height="35" fill="rgba(0,229,255,.08)" stroke="rgba(0,229,255,.5)" stroke-width="1.5" rx="2"/>
+      <text x="205" y="179" fill="#00e5ff" font-size="8" text-anchor="middle" font-family="monospace" font-weight="700">CAMPANA DE EXTRACCIÓN</text>
+      <rect x="400" y="20" width="265" height="120" fill="rgba(239,68,68,.04)" stroke="rgba(239,68,68,.3)" stroke-width="1.5" stroke-dasharray="6,4" rx="3"/>
+      <text x="412" y="38" fill="#ef4444" font-size="8" font-family="monospace" letter-spacing="2" font-weight="700">ALMACENAMIENTO</text>
+      <rect x="410" y="45" width="110" height="80" fill="#161c27" stroke="#2a3347" rx="2"/><text x="465" y="88" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">Reactivos</text>
+      <rect x="534" y="45" width="118" height="80" fill="#161c27" stroke="#2a3347" rx="2"/><text x="593" y="88" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">Material</text>
+      <rect x="400" y="150" width="265" height="80" fill="rgba(34,197,94,.04)" stroke="rgba(34,197,94,.3)" stroke-width="1.5" stroke-dasharray="6,4" rx="3"/>
+      <text x="412" y="168" fill="#22c55e" font-size="8" font-family="monospace" letter-spacing="2" font-weight="700">ZONA DE SEGURIDAD</text>
+      <circle cx="445" cy="200" r="18" fill="rgba(34,197,94,.1)" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="445" y="204" fill="#22c55e" font-size="14" text-anchor="middle">🚿</text>
+      <circle cx="495" cy="200" r="18" fill="rgba(0,229,255,.1)" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="495" y="204" fill="#00e5ff" font-size="14" text-anchor="middle">👁</text>
+      <circle cx="545" cy="200" r="18" fill="rgba(239,68,68,.1)" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="545" y="204" fill="#ef4444" font-size="14" text-anchor="middle">🧯</text>
+      <circle cx="595" cy="200" r="18" fill="rgba(239,68,68,.1)" stroke="#ef4444" stroke-width="1.5"/>
+      <text x="595" y="204" fill="#ef4444" font-size="14" text-anchor="middle">⛑</text>
+      <rect x="20" y="210" width="180" height="120" fill="rgba(59,130,246,.04)" stroke="rgba(59,130,246,.3)" stroke-width="1.5" stroke-dasharray="6,4" rx="3"/>
+      <text x="32" y="228" fill="#3b82f6" font-size="8" font-family="monospace" letter-spacing="2" font-weight="700">LAVADO</text>
+      <rect x="30" y="235" width="160" height="85" fill="#161c27" stroke="#2a3347" rx="2"/><text x="110" y="280" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">Pilas / Desagüe</text>
+      <rect x="210" y="210" width="180" height="120" fill="rgba(239,68,68,.04)" stroke="rgba(239,68,68,.25)" stroke-width="1.5" stroke-dasharray="6,4" rx="3"/>
+      <text x="222" y="228" fill="#ef4444" font-size="8" font-family="monospace" letter-spacing="2" font-weight="700">VESTUARIO / SALIDA</text>
+      <rect x="220" y="235" width="160" height="85" fill="#161c27" stroke="#2a3347" rx="2"/><text x="300" y="280" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">Locker EPP</text>
+      <rect x="400" y="240" width="265" height="90" fill="rgba(234,179,8,.04)" stroke="rgba(234,179,8,.3)" stroke-width="1.5" stroke-dasharray="6,4" rx="3"/>
+      <text x="412" y="258" fill="#eab308" font-size="8" font-family="monospace" letter-spacing="2" font-weight="700">ZONA DE RESIDUOS</text>
+      <rect x="410" y="265" width="245" height="55" fill="#161c27" stroke="#2a3347" rx="2"/><text x="532" y="295" fill="#64748b" font-size="8" text-anchor="middle" font-family="monospace">Contenedores por tipo</text>
+      <rect x="290" y="342" width="100" height="8" fill="#00e5ff" rx="2"/>
+      <text x="340" y="358" fill="#00e5ff" font-size="7" text-anchor="middle" font-family="monospace" font-weight="700">ACCESO PRINCIPAL</text>
+    </svg>
+  </div>
+  <span class="lbl">Especificaciones por zona — toca para expandir</span>
+  <div id="zonasContainer"></div>
+</div>
+
+<div id="normas" class="page">
+  <div class="sec-title">Normas generales de conducta</div>
+  <p class="sec-sub">Reglas obligatorias para todos los usuarios. Su incumplimiento es causal de suspensión de la práctica.</p>
+  <div id="normasContainer"></div>
+  </div>
+
+<div id="senales" class="page">
+  <div class="sec-title">Señalización obligatoria</div>
+  <p class="sec-sub">Según la NTC 1461 e ISO 7010, los laboratorios deben tener señales de cuatro categorías diferenciadas por color.</p>
+  <div class="senal-grid" id="senalGrid"></div>
+  <div class="box">
+    <span class="lbl">Código de colores (ISO 7010 / NTC 1461)</span>
+    <div class="g2" style="margin-top:8px">
+      <div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px"><div style="width:14px;height:14px;background:#ef4444;border-radius:2px"></div><span class="muted"><strong style="color:#e2e8f0">Rojo</strong> — Prohibición / Peligro incendio</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><div style="width:14px;height:14px;background:#eab308;border-radius:2px"></div><span class="muted"><strong style="color:#e2e8f0">Amarillo</strong> — Advertencia / Precaución</span></div>
+      </div>
+      <div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px"><div style="width:14px;height:14px;background:#3b82f6;border-radius:2px"></div><span class="muted"><strong style="color:#e2e8f0">Azul</strong> — Obligación / Uso de EPP</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><div style="width:14px;height:14px;background:#22c55e;border-radius:2px"></div><span class="muted"><strong style="color:#e2e8f0">Verde</strong> — Condición segura / Evacuación</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="ghs" class="page">
+  <div class="sec-title">Pictogramas GHS de peligro químico</div>
+  <p class="sec-sub">El Sistema Globalmente Armonizado (GHS) define 9 pictogramas obligatorios. Toca uno para ver sus peligros, frases H y medidas de protección.</p>
+  <div class="ghs-grid" id="ghsGrid"></div>
+  <div id="ghsDetail"></div>
+</div>
+
+<div id="sust" class="page">
+  <div class="sec-title">Sustancias comunes en química</div>
+  <p class="sec-sub">31 fichas de seguridad. Busca por nombre o fórmula, filtra por tipo de peligro, y toca cada tarjeta para ver los detalles completos.</p>
+  <input class="inp" id="sustSearch" placeholder="Buscar por fórmula o nombre… (ej: HCl, acetona, benceno)" oninput="filterSust()"/>
+  <div class="filter-btns" id="filterBtns"></div>
+  <div class="sust-count" id="sustCount"></div>
+  <div id="sustCards"></div>
+</div>
+
+<div id="epp" class="page">
+  <div class="sec-title">Equipo de Protección Personal (EPP)</div>
+  <p class="sec-sub">Selecciona el escenario y elige el EPP correcto. El personaje se viste en tiempo real.</p>
+  <div id="scenarioBtns" style="display:flex;flex-wrap:wrap;margin-bottom:12px"></div>
+  <div class="hint" id="scDesc"></div>
+  <div class="epp-lay">
+    <div>
+      <span class="lbl">Selecciona el equipo necesario:</span>
+      <div class="epp-grid" id="eppGrid"></div>
+      <button class="btn" onclick="verifyEPP()">Verificar selección →</button>
+      <div id="eppResult" style="display:none"></div>
+    </div>
+    <div class="fig-wrap">
+      <span class="lbl">OPERADOR</span>
+      <div class="fig-inner">
+        <span>🧑</span>
+        <span class="fo fo-bata" id="fo-bata">🥼</span>
+        <span class="fo fo-gafas" id="fo-gafas">🥽</span>
+        <span class="fo fo-shield" id="fo-shield">🛡️</span>
+        <span class="fo fo-mask" id="fo-mask">😷</span>
+        <div class="fo fo-guantes" id="fo-guantes"><span>🧤</span><span>🧤</span></div>
+        <span class="fo fo-shoes" id="fo-shoes">👟</span>
+      </div>
+      <div id="scName" style="font-size:11px;color:#64748b;line-height:1.5"></div>
+    </div>
+  </div>
+</div>
+
+<div id="res" class="page">
+  <div class="sec-title">Clasificación de residuos</div>
+  <p class="sec-sub">Toca un residuo para seleccionarlo y luego toca el contenedor correcto según la normativa colombiana.</p>
+  <div class="hint" id="resHint">💡 Toca un residuo para seleccionarlo, luego toca el contenedor correcto.</div>
+  <div class="res-lay">
+    <div class="res-src">
+      <span class="lbl">Residuos (<span id="resCount">12</span> restantes)</span>
+      <div id="dragItems"></div>
+    </div>
+    <div class="bins" id="binsGrid"></div>
+  </div>
+  <button class="btn" onclick="checkBins()">Verificar clasificación →</button>
+  <div id="binsScore" style="display:none;margin-top:10px;padding:10px 14px;border-radius:6px;font-weight:700;font-size:14px;background:#161c27;border:1px solid #1e2d3d"></div>
+  <button class="btn2" id="resRestart" style="display:none" onclick="resetRes()">Reiniciar</button>
+</div>
+
+<div id="emerg" class="page">
+  <div class="sec-title">Protocolos de emergencia</div>
+  <p class="sec-sub">Conoce los protocolos antes de necesitarlos. Toca cada tipo para ver los pasos.</p>
+  <div id="emergContainer"></div>
+  <div class="box" style="margin-top:14px">
+    <span class="lbl">Números de emergencia — Colombia</span>
+    <div class="tel-grid">
+      <div class="tel"><div class="tel-n" style="color:#ef4444">123</div><div class="tel-l">🚑 Emergencias NUSE</div></div>
+      <div class="tel"><div class="tel-n" style="color:#ef4444">119</div><div class="tel-l">🚒 Bomberos</div></div>
+      <div class="tel"><div class="tel-n" style="color:#ef4444">112</div><div class="tel-l">👮 Policía Nacional</div></div>
+      <div class="tel"><div class="tel-n" style="color:#00e5ff;font-size:16px">018000</div><div class="tel-l">☠️ Toxicología (gratis)</div></div>
+    </div>
+  </div>
+</div>
+
+<div id="quiz" class="page">
+  <div class="sec-title">Quiz de seguridad química</div>
+  <p class="sec-sub">20 preguntas aleatorias sobre GHS, EPP, residuos, emergencias y normas.</p>
+  <div id="quizMain">
+    <div class="qbar-w">
+      <div class="qbar"><div class="qbar-f" id="qBarFill"></div></div>
+      <div style="font-family:monospace;font-size:10px;color:#64748b;white-space:nowrap" id="qCnt"></div>
+    </div>
+    <div style="font-weight:700;font-size:15px;line-height:1.5;margin-bottom:6px" id="qText"></div>
+    <div style="color:#64748b;font-size:12px;font-style:italic;margin-bottom:16px;line-height:1.5" id="qCtx"></div>
+    <div id="qOpts"></div>
+    <div id="qFb" style="display:none"></div>
+    <button class="qnext" id="qNext" onclick="nextQ()">Siguiente →</button>
+  </div>
+  <div class="qresult" id="quizResult">
+    <div style="font-weight:900;font-size:72px;letter-spacing:-4px;line-height:1;margin-bottom:6px" id="qScore"></div>
+    <div style="color:#64748b;font-size:14px;margin-bottom:24px" id="qLbl"></div>
+    <button class="btn" style="width:auto;padding:12px 28px;background:#ff6b35" onclick="startQuiz()">Reintentar quiz</button>
+  </div>
+</div>
+  
+<div id="calc" class="page">
+  <div class="sec-title">Calculadora química</div>
+  <p class="sec-sub">Herramientas de cálculo para preparación y dilución de soluciones. Preparar soluciones a concentraciones incorrectas es una causa frecuente de accidentes — verifica siempre tus cálculos antes de manipular reactivos.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px">
+    <button class="bsm on" onclick="showCalc('dil',this)">C₁V₁=C₂V₂</button>
+    <button class="bsm" onclick="showCalc('sol',this)">Preparar solución</button>
+    <button class="bsm" onclick="showCalc('conv',this)">Conversión unidades</button>
+    <button class="bsm" onclick="showCalc('fd',this)">Factor de dilución</button>
+  </div>
+
+  <!-- DILUCIONES -->
+  <div id="calc-dil" class="box">
+    <span class="lbl">Diluciones — C₁V₁ = C₂V₂</span>
+    <p class="muted" style="margin-bottom:12px">Calcula cualquier variable dejando ese campo vacío.</p>
+    <div class="g2">
+      <div><label class="muted">C₁ — Concentración inicial</label><input class="inp" id="dc1" type="number" placeholder="ej: 12" oninput="calcDil()"/></div>
+      <div><label class="muted">V₁ — Volumen inicial (mL)</label><input class="inp" id="dv1" type="number" placeholder="ej: 10" oninput="calcDil()"/></div>
+      <div><label class="muted">C₂ — Concentración final</label><input class="inp" id="dc2" type="number" placeholder="ej: 1" oninput="calcDil()"/></div>
+      <div><label class="muted">V₂ — Volumen final (mL)</label><input class="inp" id="dv2" type="number" placeholder="ej: 120" oninput="calcDil()"/></div>
+    </div>
+    <div id="dil-result" style="display:none"></div>
+    <button class="btn2" onclick="resetCalc('dil')">Limpiar</button>
+  </div>
+
+  <!-- PREPARAR SOLUCIÓN -->
+  <div id="calc-sol" class="box" style="display:none">
+    <span class="lbl">Preparación de soluciones — Gramos → Molaridad</span>
+    <p class="muted" style="margin-bottom:12px">Calcula los gramos necesarios para preparar una solución de concentración y volumen definidos.</p>
+    <div class="g2">
+      <div><label class="muted">Masa molar (g/mol)</label><input class="inp" id="smm" type="number" placeholder="ej: 40 para NaOH" oninput="calcSol()"/></div>
+      <div><label class="muted">Concentración deseada (mol/L)</label><input class="inp" id="scon" type="number" placeholder="ej: 0.5" oninput="calcSol()"/></div>
+      <div><label class="muted">Volumen a preparar (mL)</label><input class="inp" id="svol" type="number" placeholder="ej: 500" oninput="calcSol()"/></div>
+    </div>
+    <div id="sol-result" style="display:none"></div>
+    <button class="btn2" onclick="resetCalc('sol')">Limpiar</button>
+  </div>
+
+  <!-- CONVERSIÓN UNIDADES -->
+  <div id="calc-conv" class="box" style="display:none">
+    <span class="lbl">Conversión de unidades de concentración</span>
+    <p class="muted" style="margin-bottom:12px">Convierte entre %, ppm y mol/L.</p>
+    <div class="g2">
+      <div><label class="muted">Valor a convertir</label><input class="inp" id="cval" type="number" placeholder="ej: 5" oninput="calcConv()"/></div>
+      <div>
+        <label class="muted">Unidad de entrada</label>
+        <select class="inp" id="cunit" onchange="calcConv()">
+          <option value="pct">% (m/v)</option>
+          <option value="ppm">ppm</option>
+          <option value="mol">mol/L (M)</option>
+        </select>
+      </div>
+      <div><label class="muted">Masa molar (g/mol) — solo para mol/L</label><input class="inp" id="cmm" type="number" placeholder="ej: 58.44 para NaCl" oninput="calcConv()"/></div>
+    </div>
+    <div id="conv-result" style="display:none"></div>
+    <button class="btn2" onclick="resetCalc('conv')">Limpiar</button>
+  </div>
+
+  <!-- FACTOR DE DILUCIÓN -->
+  <div id="calc-fd" class="box" style="display:none">
+    <span class="lbl">Factor de dilución</span>
+    <p class="muted" style="margin-bottom:12px">Calcula el factor de dilución y la relación de mezcla.</p>
+    <div class="g2">
+      <div><label class="muted">Concentración inicial (cualquier unidad)</label><input class="inp" id="fdi" type="number" placeholder="ej: 12" oninput="calcFD()"/></div>
+      <div><label class="muted">Concentración final (misma unidad)</label><input class="inp" id="fdf" type="number" placeholder="ej: 1" oninput="calcFD()"/></div>
+      <div><label class="muted">Volumen final deseado (mL)</label><input class="inp" id="fdv" type="number" placeholder="ej: 100" oninput="calcFD()"/></div>
+    </div>
+    <div id="fd-result" style="display:none"></div>
+    <button class="btn2" onclick="resetCalc('fd')">Limpiar</button>
+  </div>
+</div>
+  
+<div id="cl" class="page">
+  <div class="sec-title">Checklist pre-práctica</div>
+  <p class="sec-sub">Verifica cada punto antes de iniciar cualquier práctica. No inicies con menos del 80%.</p>
+  <div class="score-w">
+    <div class="score-ring">
+      <svg width="70" height="70" viewBox="0 0 70 70">
+        <circle cx="35" cy="35" r="28" fill="none" stroke="#1e2d3d" stroke-width="6"/>
+        <circle id="scoreCircle" cx="35" cy="35" r="28" fill="none" stroke="#ef4444" stroke-width="6"
+          stroke-dasharray="175.9" stroke-dashoffset="175.9" stroke-linecap="round" transform="rotate(-90 35 35)"
+          style="transition:.4s all"/>
+      </svg>
+      <div class="score-num" id="scoreNum" style="color:#ef4444">0%</div>
+    </div>
+    <div>
+      <div id="scoreLabel" style="font-weight:700;font-size:14px;margin-bottom:3px">Sin iniciar</div>
+      <div id="scoreDesc" class="muted"></div>
+    </div>
+  </div>
+  <div id="clGroups"></div>
+</div>
+  <div id="iso" class="page">
+  <div class="sec-title">Normas ISO en laboratorios químicos</div>
+  <p class="sec-sub">Estándares internacionales que enmarcan la seguridad, calidad y gestión del laboratorio químico.</p>
+  <div id="isoContainer"></div>
+</div>
+
+<div id="peligros" class="page">
+  <div class="sec-title">Peligros, riesgos y mecanismos de control</div>
+  <p class="sec-sub">Un <strong style="color:#00e5ff">peligro</strong> es la fuente con potencial de causar daño. Un <strong style="color:#ef4444">riesgo</strong> es la probabilidad de que ese daño ocurra. La jerarquía de controles (ISO 45001 / GTC-45) define el orden de intervención.</p>
+  <span class="lbl" style="margin-bottom:10px;display:block">Tipos de peligro — toca para ver riesgos y controles</span>
+  <div id="peligrosContainer"></div>
+  <div style="margin-top:20px">
+    <div class="sec-title" style="font-size:16px;margin-bottom:4px">Jerarquía de controles</div>
+    <p class="sec-sub">Los controles del nivel más alto son siempre más efectivos. El EPP es el último recurso, nunca el único.</p>
+    <div id="controlesContainer"></div>
+  </div>
+</div>
+
+<div id="ipevr" class="page">
+  <div class="sec-title">Matriz IPEVR</div>
+  <p class="sec-sub">Identificación de Peligros, Evaluación y Valoración de Riesgos — metodología GTC-45. Cada riesgo se evalúa por probabilidad e impacto para definir el nivel de intervención requerido.</p>
+  <div class="box" style="margin-bottom:14px">
+    <span class="lbl">Nivel de riesgo = Probabilidad × Consecuencia</span>
+    <div class="g3" style="margin-top:10px">
+      <div style="background:#052e16;border:1px solid #166534;border-radius:8px;padding:10px;text-align:center">
+        <div style="color:#86efac;font-weight:800;font-size:13px">BAJO</div>
+        <div class="muted" style="margin-top:4px">Aceptable. Mantener controles actuales.</div>
+      </div>
+      <div style="background:#1a1200;border:1px solid #92400e;border-radius:8px;padding:10px;text-align:center">
+        <div style="color:#fbbf24;font-weight:800;font-size:13px">MEDIO</div>
+        <div class="muted" style="margin-top:4px">Mejorar controles en plazo definido.</div>
+      </div>
+      <div style="background:#1a0011;border:1px solid #9d174d;border-radius:8px;padding:10px;text-align:center">
+        <div style="color:#fca5a5;font-weight:800;font-size:13px">ALTO / MUY ALTO</div>
+        <div class="muted" style="margin-top:4px">Suspender actividad. Acción inmediata.</div>
+      </div>
+    </div>
+  </div>
+  <div id="ipevrTable"></div>
+</div>
+
+<div id="sgsst" class="page">
+  <div class="sec-title">Sistema de Gestión de SST</div>
+  <p class="sec-sub">En Colombia el SG-SST es obligatorio por el Decreto 1072 de 2015 (art. 2.2.4.6). Se basa en el ciclo PHVA: Planear, Hacer, Verificar, Actuar — alineado con ISO 45001:2018.</p>
+  <div id="sgsstContainer"></div>
+</div>
+  <script src="./script.js"></script>
+
+  </body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
